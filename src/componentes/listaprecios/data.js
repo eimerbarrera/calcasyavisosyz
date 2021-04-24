@@ -1,17 +1,17 @@
  export default [
   {
-    name: 'Lion',
+    name: 'Membresia Silver',
     scientificName: 'Panthero leo',
     size: 140,
-    diet: ['meat'],
+    diet: ['mensual'],
   },
   {
-    name: 'Gorilla',
+    name: 'Membresia Silver',
     scientificName: 'Gorilla beringei',
     size: 205,
     diet: ['plants', 'insects'],
     additional: {
-      notes: 'Este es el gorila oriental. También hay un gorila occidental que es de una especie diferente.'
+      notes: 'Esta membresia te permite descargas ilimitadas'
     }
   },
   {

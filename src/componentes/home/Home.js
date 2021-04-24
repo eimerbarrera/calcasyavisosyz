@@ -5,6 +5,7 @@ import Slider from './slider/Slider';
 import Servicios from './servicios/Servicios';
 import Footer from '../footer/Footer';
 import Jumbotronhome from './jumbotronhome/Jumbotronhome';
+import Contenedorhome from './contenedorhome/Contenedorhome';
 
 
 class Home extends React.Component {
@@ -26,7 +27,9 @@ class Home extends React.Component {
 		  	  		<Servicios />
 						<hr className="featurette-divider" />
 					<Jumbotronhome/>
-		  	  		<hr className="featurette-divider" />
+		  	  		<hr className="featurette-divider"/>
+					<Contenedorhome/>
+					<hr className="featurette-divider"/>
 
 		        </div>
 
@@ -36,10 +39,10 @@ class Home extends React.Component {
 
 	  		</>
 
-		)
+		);
 
-	}
+	};
 
-}
+};
 
 export default Home;

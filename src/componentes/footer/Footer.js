@@ -5,7 +5,7 @@ class Footer extends React.Component{
     render() {
         return (
 
-            <footer className="container">
+            <footer className="container bg-dark text-white">
                 <p className="float-right">
                     <a href="#">Subir</a>
                 </p>

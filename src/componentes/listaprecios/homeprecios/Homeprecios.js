@@ -1,5 +1,6 @@
 import React from 'react';
-
+import data from '../data';
+import Tarjetaprecios from '../tarjetaprecios/Tarjetaprecios';
 
 
 
@@ -11,15 +12,17 @@ function showAdditional(additional) {
 };
 
 
-function App() {
+function Homeprecios() {
   return (
     <div className="wrapper">
-      <h1>Animals</h1>
+      <h1>Precios de suscripciones mensuales</h1>
       {data.map(animal => (
-        <AnimalCard additional={animal.additional}
+        <Tarjetaprecios additional={animal.additional}
           diet={animal.diet} key={animal.name} name={animal.name} scientificName={animal.scientificName} showAdditional={showAdditional}
           size={animal.size}/>
       ))}
     </div>
   )
 }
+
+export default Homeprecios;
