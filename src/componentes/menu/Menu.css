@@ -1,0 +1,39 @@
+/* Generales */
+.btn-mod {
+    color: #d7e03569 !important;
+    background-color:#2e3025 !important;
+    border: solid 1px #d7e03569 !important;
+}
+.btn-mod:hover {
+    color: #D8E035 !important;
+    border: solid 1px #D8E035 !important;
+    transition: all 400ms;
+}
+
+
+/* Nav bar */
+
+.menu-hover:hover {
+    color: #D8E035 !important;
+    transition: all 400ms;
+}
+.enlace {
+    
+    color: #d7e03569 !important;
+}
+.enlace:hover/* :not(.activo) */ {
+    font-size: 18px;
+    color: #D8E035 !important;
+    transition: all 400ms;
+}
+
+.activo {
+    color: #D8E035 !important;
+    cursor: default;
+
+}
+
+.borde-buscar:focus {
+    border: solid 1px #D8E035;
+    box-shadow: 0px 0px 4px #D8E035;
+}

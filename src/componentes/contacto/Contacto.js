@@ -26,13 +26,13 @@ class Contacto extends React.Component {
  
             			<div className="col-md-6">
 		        
-							<Formulario/> <span> </span>
+							<Formulario/>
  
 						</div>
  
 						<div className="col-md-6">
 		        
-							<Mapa/> <span> </span>
+							<Mapa/>
  
 						</div>
  
